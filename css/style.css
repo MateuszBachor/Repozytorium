@@ -7,22 +7,44 @@ body {
 
 .header {
   width: 100%;
-  height: 80px;
+  height: 30%;
   background-color: white;
+  display: inline-block;
+
 }
-.Logo {
+
+
+
+.nav{
+  display: inline-block;
+  margin-right: 3%;
+  margin-left: 15%;
+}
+.btn a{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.LogoN {
+  display: inline-block;
   font-size: 26px;
-  margin: 2%;
 }
-.buttons {
-  color: black;
-  margin-left: 20%;
-  height: 16px;
+.kontakt{
+  display: inline-block;
+  float: right;
+  padding: 1%;
 }
-.buttons li {
-  display: inline;
-  margin: 1%;
+.kontakt-p{
+  display: inline-block;
 }
+
+
+
+
+
+
+
+
+
 .main {
 }
 .footer {

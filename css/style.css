@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.Logo {
+  font-size: 26px;
+  margin: 2%;
+}
+.buttons {
+  color: black;
+  margin-left: 20%;
+  height: 16px;
+}
+.buttons li {
+  display: inline;
+  margin: 1%;
+}
+.main {
+}
+.footer {
+}

@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: darkgrey;
   font-family: "Roboto", sans-serif;
 }
 
@@ -9,6 +8,7 @@ body {
   width: 100%;
   background-color: white;
   display: inline-block;
+  border:1px solid #EEEEEE;
 
 }
 
@@ -16,13 +16,15 @@ body {
 
 .nav{
   display: inline-block;
-  margin-right: 3%;
-  margin-left: 15%;
+  padding-right: 3%;
+  padding-left: 10%;
   padding-top: 2%;
   padding-bottom: 2%;
+  width: 25%;
 }
 .nav a{
   text-decoration: none;
+  padding: 2%;
 }
 .btn a{
   padding-left: 1%;
@@ -32,7 +34,7 @@ body {
   display: inline-block;
   font-size: 26px;
   padding-top: 1%;
-  padding-left: 5%;
+  padding-left: 7%;
   padding-bottom: 2%;
 }
 .header a{
@@ -50,12 +52,14 @@ body {
   display: inline-block;
   float: right;
   padding-top: 2%;
-  padding-right: 1%;
+  padding-right: 4%;
   padding-bottom: 2%;
+  width: 25%;
 }
 .kontakt a{
   text-decoration: none;
   color: black;
+  padding-left: 10%;
 }
 
 
@@ -69,16 +73,81 @@ body {
 .main {
   width: 100%;
   background-color: #ffffff;
-  display: inline-block;
+  
 }
 .filters{
-  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 36%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  
 }
 .filters a{
-  padding: 2%;
   text-decoration: none;
   color: black;
+  background-color: #F5F4FA;
+  margin-left: 2%;
+  
+  
 }
+
+.projects{
+margin-left:5%;
+padding-bottom: 5%;
+}
+.title{
+  padding-left: 5%;
+}
+.title h4{
+  color: #757575;
+}
+.project1{
+  display: inline-block;
+  margin: 0.5%;
+  border:1px solid #EEEEEE;
+}
+.project2{
+  display: inline-block;
+  border:1px solid #EEEEEE;
+  margin: 0.5%;
+}
+.project3{
+  display: inline-block;
+  border:1px solid #EEEEEE;
+  margin: 0.5%;
+}
+.project4{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+.project5{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+.project6{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+.project7{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+.project8{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+.project9{
+  border:1px solid #EEEEEE;
+  display: inline-block;
+  margin: 0.5%;
+}
+
 .footer {
   width: 100%;
   background-color: #2F303A;

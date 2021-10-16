@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -78,8 +79,78 @@ body {
 .main {
   width: 100%;
   background-color: #ffffff;
-  
 }
+.banner{
+ background-color: #2F303A;
+ text-align: center;
+ height: 60vh;
+ 
+}
+.banner h1{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 13%;
+  margin-top: 0%;
+  color: #FFFFFF;
+
+
+}
+.button{
+ margin-bottom: 5%;
+ border-radius: 5px;
+ background-color: #2196F3;
+ color: #FFFFFF;
+}
+button{
+  border: none;
+  padding: 10px;
+}
+
+.team{
+background-color: #F5F4FA;
+margin-top: 8%;
+text-align: center;
+
+}
+.team h2{
+  text-align: center;
+  padding-top: 80px;
+ 
+}
+.Job{
+  color:  #757575;
+}
+.img2{
+  display: inline-block;
+  padding: 1%;
+  margin-left: 1%;
+}
+.Lorem-ipsum{
+  margin-top: 5%;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 12%;
+}
+.Loremtxt{
+  
+  display: inline-block;
+  width: 20%;
+  margin: auto;
+  padding: 1.5%;
+}
+.Loremtxt p{
+  color: #757575;
+}
+.Working{
+  text-align: center;
+  margin-top: 8%;
+
+}
+.img1{
+  display: inline-block;
+  padding: 1.5%;
+}
+
 .filters{
   display: inline-block;
   width: 50%;
@@ -96,7 +167,7 @@ body {
   font-weight: 600;
   padding: 1%;
   margin-left: 2%;
-  border-radius: 10px
+  border-radius: 5px
  
 }
 .filters a:hover{
@@ -163,7 +234,14 @@ color: #212121;
   padding-bottom: 5%;
 }
 .address a{
-  display: block;
-  color: white;
   padding: 2%;
+}
+.maps{
+  display: block;
+  
+  color: white;
+}
+.txtadress{
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
 }

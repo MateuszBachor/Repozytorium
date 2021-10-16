@@ -67,6 +67,47 @@ body {
 
 
 .main {
+  width: 100%;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.filters{
+  text-align: center;
+}
+.filters a{
+  padding: 2%;
+  text-decoration: none;
+  color: black;
 }
 .footer {
+  width: 100%;
+  background-color: #2F303A;
+  display: inline-block;
+}
+.footer a{
+  text-decoration: none;
+}
+.LogoF {
+  display: inline-block;
+  font-size: 26px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.Web{
+  color: blue;
+}
+
+.Studio-f{
+  color: white;
+}
+.address{
+  padding-left: 5%;
+  padding-right: 65%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.address a{
+  display: block;
+  color: white;
+  padding: 2%;
 }

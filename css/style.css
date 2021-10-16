@@ -55,14 +55,14 @@ body {
   display: inline-block;
   float: right;
   padding-top: 2%;
-  padding-right: 4%;
+  padding-right: 8%;
   padding-bottom: 2%;
   width: 25%;
 }
 .kontakt a{
   text-decoration: none;
   color: black;
-  padding-left: 10%;
+  padding-left: 8%;
 }
 .kontakt a:hover{
   color: blue;
@@ -93,6 +93,7 @@ body {
   text-decoration: none;
   color: black;
   background-color: #F5F4FA;
+  font-weight: 600;
   padding: 1%;
   margin-left: 2%;
   border-radius: 10px
@@ -104,7 +105,8 @@ body {
 }
 
 .projects{
-margin-left:5%;
+margin-left: 4%;
+margin-right: 4%;
 padding-bottom: 5%;
 
 
@@ -119,6 +121,7 @@ padding-bottom: 5%;
 .title{
 color: #212121;
   font-size: 18px;
+  font-weight: 900;
 }
 .subtitle{
   font-size: 16px;

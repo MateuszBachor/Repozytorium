@@ -4,6 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
 .header {
   width: 100%;
   background-color: white;
@@ -11,8 +12,6 @@ body {
   border:1px solid #EEEEEE;
 
 }
-
-
 
 .nav{
   display: inline-block;
@@ -25,6 +24,9 @@ body {
 .nav a{
   text-decoration: none;
   padding: 2%;
+}
+.nav a:hover{
+  color: blue;
 }
 .btn a{
   padding-left: 1%;
@@ -41,6 +43,7 @@ body {
   text-decoration: none;
   color: black;
 }
+
 .Web{
   color: blue;
 }
@@ -61,7 +64,9 @@ body {
   color: black;
   padding-left: 10%;
 }
-
+.kontakt a:hover{
+  color: blue;
+}
 
 
 
@@ -77,19 +82,25 @@ body {
 }
 .filters{
   display: inline-block;
-  width: 40%;
-  margin-left: 36%;
+  width: 50%;
+  margin-left: 33%;
   margin-top: 5%;
   margin-bottom: 2%;
+  
   
 }
 .filters a{
   text-decoration: none;
   color: black;
   background-color: #F5F4FA;
+  padding: 1%;
   margin-left: 2%;
-  
-  
+  border-radius: 10px
+ 
+}
+.filters a:hover{
+  color: white;
+  background-color: blue;
 }
 
 .projects{

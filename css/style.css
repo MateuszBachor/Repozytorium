@@ -3,22 +3,29 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  width: 1600px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  position: relative;
 }
 
 .header {
   width: 100%;
   background-color: white;
-  display: inline-block;
-  border: 1px solid #eeeeee;
+  display: inline-flex;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .nav {
-  display: inline-block;
-  padding-right: 3%;
-  padding-left: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width: 25%;
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 261px;
+  align-items: center;
 }
 .nav a {
   text-decoration: none;
@@ -32,11 +39,12 @@ body {
   padding-right: 1%;
 }
 .LogoN {
-  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 26px;
-  padding-top: 1%;
-  padding-left: 7%;
-  padding-bottom: 2%;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-left: 215px;
 }
 .header a {
   text-decoration: none;
@@ -50,12 +58,13 @@ body {
   color: black;
 }
 .kontakt {
-  display: inline-block;
-  float: right;
-  padding-top: 2%;
-  padding-right: 8%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 32px;
   padding-bottom: 2%;
-  width: 25%;
+  margin-left: 422px;
+  width: 400px;
+  align-items: center;
 }
 .kontakt a {
   text-decoration: none;
@@ -73,7 +82,7 @@ body {
 .banner {
   background-color: #2f303a;
   text-align: center;
-  height: 60vh;
+  height: 600px;
 }
 .banner h1 {
   padding-left: 5%;
@@ -88,7 +97,7 @@ body {
   background-color: #2196f3;
   color: #ffffff;
 }
-button {
+.button {
   border: none;
   padding: 10px;
 }
@@ -156,8 +165,6 @@ button {
 }
 
 .projects {
-  margin-left: 4%;
-  margin-right: 4%;
   padding-bottom: 5%;
 }
 .contitle ul {
@@ -177,8 +184,8 @@ button {
 }
 .project {
   display: inline-block;
-  margin: 0.5%;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 1%;
 }
 
 .footer {
@@ -192,8 +199,8 @@ button {
 .LogoF {
   display: inline-block;
   font-size: 26px;
-  padding-left: 5%;
-  padding-top: 5%;
+  margin-left: 215px;
+  margin-top: 5%;
 }
 .Web {
   color: blue;
@@ -203,13 +210,12 @@ button {
   color: white;
 }
 .address {
-  padding-left: 5%;
-  padding-right: 65%;
-  padding-top: 2%;
-  padding-bottom: 5%;
+  margin-left: 215px;
+  margin-top: 2%;
+  margin-bottom: 60px;
 }
 .address a {
-  padding: 2%;
+  padding: 9px;
 }
 .address a:hover {
   color: blue;

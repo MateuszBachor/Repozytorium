@@ -144,9 +144,8 @@ body {
 }
 
 .filters {
-  display: inline-block;
-  width: 50%;
-  margin-left: 33%;
+  display: block;
+  margin-left: 300px;
   margin-top: 5%;
   margin-bottom: 2%;
 }
@@ -154,8 +153,8 @@ body {
   text-decoration: none;
   color: black;
   background-color: #f5f4fa;
-  font-weight: 600;
-  padding: 1%;
+  font-weight: 500;
+  padding: 8px;
   margin-left: 2%;
   border-radius: 5px;
 }

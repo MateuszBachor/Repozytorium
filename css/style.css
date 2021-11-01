@@ -1,20 +1,12 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   width: 1600px;
 }
-.container {
-  width: 1170px;
-  margin: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  position: relative;
-}
 
 .header {
-  width: 100%;
   background-color: white;
   display: inline-flex;
   border-bottom: 1px solid #eeeeee;
@@ -58,13 +50,13 @@ body {
   color: black;
 }
 .kontakt {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
   padding-top: 32px;
   padding-bottom: 2%;
   margin-left: 422px;
-  width: 400px;
-  align-items: center;
+  width: 420px;
+  align-items: stretch;
 }
 .kontakt a {
   text-decoration: none;
@@ -76,7 +68,6 @@ body {
 }
 
 .main {
-  width: 100%;
   background-color: #ffffff;
 }
 .banner {
@@ -85,21 +76,35 @@ body {
   height: 600px;
 }
 .banner h1 {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 13%;
-  margin-top: 0%;
   color: #ffffff;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
-  margin-bottom: 5%;
-  border-radius: 5px;
-  background-color: #2196f3;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   color: #ffffff;
-}
-.button {
   border: none;
-  padding: 10px;
+  margin-top: 30px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  justify-content: center;
 }
 
 .team {
@@ -121,7 +126,6 @@ body {
 }
 .Lorem-ipsum {
   margin-top: 5%;
-  width: 80%;
   margin-right: 10%;
   margin-left: 12%;
 }
@@ -226,4 +230,11 @@ body {
 .txtadress {
   color: rgba(255, 255, 255, 0.6);
   display: block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }

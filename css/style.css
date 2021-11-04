@@ -30,8 +30,9 @@ body {
 }
 .LogoN {
   font-size: 26px;
-  padding-top: 29px;
+  padding-top: 40px;
   padding-bottom: 25px;
+  display: flex;
 }
 .header a {
   text-decoration: none;
@@ -42,14 +43,6 @@ body {
 }
 .Studio {
   color: black;
-  margin-left: -8px;
-}
-.kontakt {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  align-items: center;
-  display: inline-flex;
-  margin-left: 424px;
 }
 
 .main {
@@ -58,7 +51,8 @@ body {
 .banner {
   text-align: center;
   height: 600px;
-  background-image: url("../images/Img.jpg");
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.459)),
+    url("../images/Img.jpg");
 
   display: flex;
 }
@@ -226,7 +220,7 @@ body {
   padding-top: 9px;
 }
 .address a:hover {
-  color: blue;
+  color: #2196f3;
 }
 .maps {
   display: block;
@@ -267,14 +261,7 @@ body {
   padding-bottom: 94px;
   display: block;
 }
-.icon-client {
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  align-items: center;
-  margin-left: 13px;
-  margin-right: 13px;
-}
+
 .icon-footers {
   margin-left: 70px;
 
@@ -300,10 +287,47 @@ body {
   display: block;
 }
 .icon {
-  margin-left: 12px;
-  margin-right: 12px;
-  fill: blue;
+  fill: #757575;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 14px;
 }
-.icon:hover {
-  fill: rgb(12, 12, 12);
+
+.txtcon {
+  color: #212121;
+}
+
+.contakt-link {
+  width: 200px;
+  text-align: center;
+}
+.kontakt :hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+.kontakt {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  display: inline-flex;
+  margin-left: 420px;
+
+  color: #000000;
+}
+.icon-client-link :hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-client {
+  border: 1px solid;
+  border-color: #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  margin-left: 13px;
+  margin-right: 13px;
+  fill: #afb1b8;
+}
+.icon-client-link {
+  border: none;
 }

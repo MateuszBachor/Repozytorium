@@ -40,11 +40,11 @@ body {
 }
 
 .Web {
-  color: blue;
+  color: #2196f3;
 }
 .Studio {
   color: black;
-  margin-left: -10px;
+  margin-left: -8px;
 }
 .kontakt {
   padding-top: 32px;
@@ -62,6 +62,9 @@ body {
 .kontakt a:hover {
   color: blue;
 }
+.icon-kontakt :hover {
+  fill: blue;
+}
 
 .main {
   background-color: #ffffff;
@@ -71,6 +74,12 @@ body {
   height: 600px;
   background-image: url("../images/Img.jpg");
   display: flex;
+}
+.icon-Lorem {
+  background: #f5f4fa;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
 }
 
 .banner h1 {
@@ -140,7 +149,7 @@ body {
   font-size: 14px;
 }
 .Working {
-  padding-top: 194px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .Working h2 {
@@ -201,26 +210,30 @@ body {
   background-color: #2f303a;
   flex-direction: column-reverse;
 }
+.footer h4 {
+  margin-top: 72px;
+  color: white;
+  text-align: center;
+}
 .footer a {
   text-decoration: none;
 }
 .LogoF {
   font-size: 26px;
   padding-top: 60px;
-  padding-bottom: 15%;
-  margin-bottom: 20px;
+
+  position: absolute;
 }
 .Web {
-  color: blue;
+  color: #2196f3;
 }
 
 .Studio-f {
   color: white;
+  margin-left: -8px;
 }
 .address {
   margin-top: 111px;
-  padding-bottom: 60px;
-  position: absolute;
 }
 .address a {
   padding-top: 9px;
@@ -247,7 +260,14 @@ body {
   background-color: #f5f4fa;
 }
 .icon-team {
-  margin: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
 }
 .client h2 {
   font-size: 36px;
@@ -269,8 +289,13 @@ body {
   margin-right: 13px;
 }
 .icon-footers {
-  margin-left: 15%;
-  margin-top: 5%;
+  margin-left: 70px;
+
+  margin-bottom: 100px;
+}
+.icon-footer {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 #icon-envelope :hover {
   fill: blue;

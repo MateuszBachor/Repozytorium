@@ -21,11 +21,9 @@ body {
 }
 .nav a {
   text-decoration: none;
-  padding: 2%;
+  padding-left: 15%;
 }
-.nav a:hover {
-  color: blue;
-}
+
 .btn a {
   padding-left: 1%;
   padding-right: 1%;
@@ -53,18 +51,6 @@ body {
   display: inline-flex;
   margin-left: 424px;
 }
-.kontakt a {
-  text-decoration: none;
-  color: black;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-.kontakt a:hover {
-  color: blue;
-}
-.icon-kontakt :hover {
-  fill: blue;
-}
 
 .main {
   background-color: #ffffff;
@@ -73,6 +59,7 @@ body {
   text-align: center;
   height: 600px;
   background-image: url("../images/Img.jpg");
+
   display: flex;
 }
 .icon-Lorem {
@@ -297,9 +284,6 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
-#icon-envelope :hover {
-  fill: blue;
-}
 
 .container-banner {
   height: 100%;
@@ -314,4 +298,12 @@ body {
 }
 .h2-team {
   display: block;
+}
+.icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  fill: blue;
+}
+.icon:hover {
+  fill: rgb(12, 12, 12);
 }

@@ -351,6 +351,33 @@
             <use href="#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+
+        <form class="modal-form" action="#" method="post">
+          <h2 class="modal-h2">Zostaw swoje dane w formularzu poniżej</h2>
+          <label class="label" for="firstname">Imię:</label>
+          <input id="firstname" name="firstname" type="text" />
+
+          <label class="label" for="tel">Telefon:</label>
+          <input id="tel" name="tel" type="tel" />
+
+          <label class="label" for="email">Email:</label>
+          <input id="email" name="email" type="email" />
+
+          <label class="label" for="comment">Komentarz:</label>
+          <textarea rows="7" cols="7">Wprowadź tekst</textarea>
+          <div class="reg">
+            <input
+              class="modal-form-policy"
+              id="user-policy"
+              type="checkbox"
+              name="policy"
+            />
+            <label for="user-policy" class="modal-form-policy-text">
+              Oświadczam iż akceptuje Regulamin i Politykę Prywatności
+            </label>
+          </div>
+          <button class="modal-btn">Wyślij</button>
+        </form>
       </div>
     </div>
 

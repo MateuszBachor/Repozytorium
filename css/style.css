@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 .header {
@@ -467,4 +468,20 @@ body {
 .subtitle {
   font-size: 16px;
   color: #757575;
+}
+.backdrop {
+  opacity: 0.2;
+}
+
+.modal-container {
+  position: absolute;
+  width: 528px;
+  height: 581px;
+  left: 536px;
+  top: 221px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  opacity: 1;
 }

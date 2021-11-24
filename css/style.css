@@ -535,19 +535,7 @@ body {
   flex-direction: column;
   display: flex;
 }
-.modal-form-policy {
-  margin: 10px;
-}
-.modal-form-policy-text {
-  text-align: center;
-}
-.label {
-  padding-top: 10px;
-}
-.reg {
-  display: inline-flex;
-  align-items: center;
-}
+
 .modal-btn {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -556,17 +544,105 @@ body {
   height: 50px;
   position: absolute;
   right: 165px;
-  top: 491px;
+  top: 501px;
+  cursor: pointer;
 }
+
+.icon-modal-person {
+  position: absolute;
+  top: 144px;
+  left: 33px;
+  width: 21px;
+  height: 3.8%;
+}
+
+.icon-modal-phone {
+  position: absolute;
+  top: 222px;
+  left: 33px;
+  width: 21px;
+  height: 3.8%;
+  fill: #000000;
+}
+
+.icon-modal-email {
+  position: absolute;
+  top: 300px;
+  left: 33px;
+  width: 21px;
+  height: 3.8%;
+}
+#email {
+  padding-left: 6%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  height: 40px;
+}
+#email:focus {
+  border: 1px solid #2196f3;
+}
+#email:focus + .icon-modal-email {
+  fill: #2196f3;
+}
+#firstname {
+  padding-left: 6%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  height: 40px;
+}
+#firstname:focus {
+  border: 1px solid #2196f3;
+}
+#firstname:focus + .icon-modal-person {
+  fill: #2196f3;
+}
+#tel {
+  padding-left: 6%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  height: 40px;
+}
+#tel:focus {
+  border: 1px solid #2196f3;
+}
+#tel:focus + .icon-modal-phone {
+  fill: #2196f3;
+}
+.comment {
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.comment:focus {
+  border: 1px solid #2196f3;
+}
+
 .label {
   padding-top: 10px;
   padding-bottom: 10px;
+  color: #757575;
 }
-
-/* .modal-form-policy-text ::before {
+.reg {
+  align-items: center;
+  text-align: center;
+}
+/* 
+.modal-form-policy-text {
+  text-align: center;
+}
+.modal-form-policy-text ::before {
   display: block;
   content: "";
   width: 16px;
   height: 16px;
   border: 1px solid #000000;
+}
+.modal-form-policy:checked + .modal-form-policy-text {
+  color: var(--main-color);
 } */

@@ -41,6 +41,7 @@ body {
   padding-bottom: 25px;
   display: flex;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .Web {
@@ -149,6 +150,7 @@ body {
   display: inline-block;
   width: 270px;
   margin-left: 30px;
+  font-size: 14px;
 }
 .Loremtxt p {
   color: #757575;
@@ -157,6 +159,9 @@ body {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-size: 14px;
+}
+.Loremtxt h2 {
   font-size: 14px;
 }
 .Working {
@@ -194,12 +199,12 @@ body {
 
 .footer {
   background-color: #2f303a;
-  flex-direction: column-reverse;
 }
 .footer h4 {
   margin-top: 72px;
   color: white;
   text-align: center;
+  font-size: 14px;
 }
 .footer a {
   text-decoration: none;
@@ -207,7 +212,7 @@ body {
 .LogoF {
   font-size: 26px;
   padding-top: 60px;
-
+  font-weight: bold;
   position: absolute;
 }
 .Web {
@@ -223,6 +228,7 @@ body {
 }
 .address a {
   padding-top: 9px;
+  font-size: 14px;
 }
 .address a:hover {
   color: #2196f3;
@@ -390,8 +396,9 @@ body {
   transition-duration: 250ms;
 }
 .agencja ::after {
-  border-top: 5px solid blue;
-  border-radius: 30%;
+  border: 3px solid #2196f3;
+  background-color: #2196f3;
+  border-radius: 2px;
   content: "";
   height: 5px;
   width: 80px;
@@ -399,8 +406,9 @@ body {
   position: absolute;
 }
 .port ::after {
-  border-top: 5px solid blue;
-  border-radius: 30%;
+  border: 3px solid #2196f3;
+  background-color: #2196f3;
+  border-radius: 2px;
   content: "";
   height: 5px;
   width: 80px;
@@ -417,6 +425,8 @@ body {
 }
 .projects :hover .card {
   transform: translate(0, 0);
+  font-size: 18px;
+  color: #ffffff;
 }
 .projects {
   justify-content: space-between;
@@ -487,16 +497,15 @@ body {
   position: absolute;
   width: 528px;
   min-height: 581px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 29%;
+  top: 3%;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
     opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  /* transform: translate3d(0, 0, 0); */
+  transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 .icon-modal {
@@ -524,10 +533,11 @@ body {
 }
 
 .modal {
-  padding: 30px;
+  padding: 40px;
 }
 .modal-h2 {
   text-align: center;
+  font-size: 20px;
 }
 
 .modal-form {
@@ -537,9 +547,11 @@ body {
 }
 
 .modal-btn {
+  color: #eeeeee;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   width: 200px;
   height: 50px;
   position: absolute;
@@ -550,16 +562,16 @@ body {
 
 .icon-modal-person {
   position: absolute;
-  top: 144px;
-  left: 33px;
+  top: 138px;
+  left: 44px;
   width: 21px;
   height: 3.8%;
 }
 
 .icon-modal-phone {
   position: absolute;
-  top: 222px;
-  left: 33px;
+  top: 212px;
+  left: 44px;
   width: 21px;
   height: 3.8%;
   fill: #000000;
@@ -567,8 +579,8 @@ body {
 
 .icon-modal-email {
   position: absolute;
-  top: 300px;
-  left: 33px;
+  top: 287px;
+  left: 44px;
   width: 21px;
   height: 3.8%;
 }
@@ -622,15 +634,66 @@ body {
 .comment:focus {
   border: 1px solid #2196f3;
 }
+.comment::placeholder {
+  padding-left: 3px;
+}
+.textarea {
+  margin-top: 16px;
+}
 
 .label {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #757575;
+  font-size: 12px;
 }
 .reg {
   align-items: center;
   text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.newsletter {
+  width: 300px;
+  margin-top: 66px;
+  margin-left: 78px;
+}
+.newsletter label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.newsletter input {
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  padding-left: 20px;
+  margin-top: 27px;
+  width: 358px;
+}
+.newsletter button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  margin-left: 365px;
+  margin-top: -50px;
 }
 /* 
 .modal-form-policy-text {

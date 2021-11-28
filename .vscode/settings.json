@@ -5,6 +5,11 @@
         "format":"expanded",
         "extensionName": ".css",
         "savePatch": "/css"
+    },
+    {
+        "format":"compressed",
+        "extensionName": ".min.css",
+        "savePatch": "/css"
     }
 ],
 "liveSassCompile.settings.excludeList": [

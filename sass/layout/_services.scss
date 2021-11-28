@@ -1,0 +1,37 @@
+.services {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.services__title {
+  text-align: center;
+  font-size: 36px;
+}
+.services__card1 {
+  margin: 18px;
+  background-image: url("../images/1.jpg");
+  width: 370px;
+  height: 294px;
+}
+.services__card2 {
+  margin: 18px;
+  background-image: url("../images/2.jpg");
+  width: 370px;
+  height: 294px;
+}
+.services__card3 {
+  margin-left: 18px;
+  margin-top: 18px;
+  background-image: url("../images/3.jpg");
+  width: 370px;
+  height: 294px;
+}
+.services__subtitile {
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.459));
+  color: #ffffff;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 14px;
+  position: relative;
+  top: 210px;
+}

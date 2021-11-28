@@ -1,0 +1,86 @@
+.address {
+  margin-top: 111px;
+  position: absolute;
+}
+.address a {
+  padding-top: 9px;
+  font-size: 14px;
+}
+.address a:hover {
+  color: #2196f3;
+}
+.maps {
+  display: block;
+  color: white;
+}
+.txtadress {
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+}
+.JoinUs__title {
+  margin-top: 72px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.JoinUs {
+  margin-left: 140px;
+  padding-bottom: 50px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.JoinUs__container-svg {
+  display: inline-flex;
+}
+.social-icon-link {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  margin: 10px;
+}
+.social-icon-link:hover {
+  background-color: #2196f3;
+  fill: #eeeeee;
+}
+.newsletter {
+  width: 300px;
+  margin-top: 66px;
+  margin-left: 78px;
+}
+.newsletter__label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.newsletter__input {
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  padding-left: 20px;
+  margin-top: 27px;
+  width: 358px;
+}
+.button-position-newsletter {
+  margin-left: 70px;
+  margin-top: 110px;
+  font-size: 16px;
+}
+.newsletter__icon-send {
+  font-size: 24px;
+  margin-left: 8px;
+  position: absolute;
+}

@@ -4,3 +4,22 @@
   display: flex;
   flex-wrap: nowrap;
 }
+.main {
+  background-color: #ffffff;
+}
+.header {
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid #eeeeee;
+}
+.footer {
+  background-color: #2f303a;
+}
+.wrapper {
+  width: 100%;
+  background-color: #f5f4fa;
+}
+.team__svg-container {
+  display: flex;
+  justify-content: center;
+}

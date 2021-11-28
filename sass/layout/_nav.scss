@@ -1,0 +1,32 @@
+.nav {
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  display: inline-flex;
+  width: 30%;
+}
+.nav__link {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  padding-right: 1%;
+  padding-left: 15%;
+}
+.nav__link:hover {
+  color: #2196f3;
+  font-weight: 500;
+}
+.link-activ:hover {
+  color: #2196f3;
+}
+.link-activ ::after {
+  border: 3px solid #2196f3;
+  background-color: #2196f3;
+  border-radius: 2px;
+  content: "";
+  height: 5px;
+  width: 80px;
+  top: 110px;
+  position: absolute;
+  margin-left: -66px;
+}

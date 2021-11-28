@@ -1,0 +1,30 @@
+.client__title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.client {
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  display: block;
+}
+.client__icon-link {
+  border: none;
+}
+.client__icon-link :hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.client__icon {
+  border: 1px solid;
+  border-color: #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 13px;
+  fill: #afb1b8;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}

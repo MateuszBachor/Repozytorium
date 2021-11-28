@@ -1,0 +1,35 @@
+.contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  display: inline-flex;
+  margin-left: 420px;
+  width: 30%;
+}
+.contact__link :hover {
+  color: #2196f3;
+  fill: #2196f3;
+  font-weight: 500;
+}
+.contact__link {
+  width: 200px;
+  text-align: center;
+}
+.contact__txt {
+  color: #757575;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.contact__icon-envelope {
+  fill: #757575;
+  position: absolute;
+  margin-left: -104px;
+  margin-top: 14px;
+}
+.contact__icon-smartphone {
+  fill: #757575;
+  position: absolute;
+  margin-left: -88px;
+  margin-top: 14px;
+}

@@ -68,9 +68,9 @@
   border-radius: 4px;
   outline: none;
   height: 40px;
-}
-#email:focus {
-  border: 1px solid #2196f3;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
 #email:focus + .icon-modal-email {
   fill: #2196f3;
@@ -82,10 +82,11 @@
   border-radius: 4px;
   outline: none;
   height: 40px;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
-#firstname:focus {
-  border: 1px solid #2196f3;
-}
+
 #firstname:focus + .icon-modal-person {
   fill: #2196f3;
 }
@@ -96,10 +97,11 @@
   border-radius: 4px;
   outline: none;
   height: 40px;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
-#tel:focus {
-  border: 1px solid #2196f3;
-}
+
 #tel:focus + .icon-modal-phone {
   fill: #2196f3;
 }
@@ -107,13 +109,14 @@
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  &:focus {
+    border: 1px solid #2196f3;
+  }
+  &::placeholder {
+    padding-left: 3px;
+  }
 }
-.modal__comment:focus {
-  border: 1px solid #2196f3;
-}
-.modal__comment::placeholder {
-  padding-left: 3px;
-}
+
 .textarea {
   margin-top: 16px;
 }

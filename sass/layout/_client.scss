@@ -11,11 +11,12 @@
 }
 .client__icon-link {
   border: none;
+  &:hover {
+    fill: #2196f3;
+    border-color: #2196f3;
+  }
 }
-.client__icon-link :hover {
-  fill: #2196f3;
-  border-color: #2196f3;
-}
+
 .client__icon {
   border: 1px solid;
   border-color: #afb1b8;

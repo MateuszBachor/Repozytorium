@@ -7,14 +7,15 @@
   margin-left: 420px;
   width: 30%;
 }
-.contact__link :hover {
-  color: #2196f3;
-  fill: #2196f3;
-  font-weight: 500;
-}
+
 .contact__link {
   width: 200px;
   text-align: center;
+  &:hover {
+    color: #2196f3;
+    fill: #2196f3;
+    font-weight: 500;
+  }
 }
 .contact__txt {
   color: #757575;

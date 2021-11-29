@@ -1,16 +1,20 @@
-@import "./utils/isHidden";
+
 @import "./base/common";
 @import "./base/container";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/ModalWindow";
 @import "./layout/aboutus";
+@import "./layout/banner";
 @import "./layout/client";
 @import "./layout/contact";
 @import "./layout/footer";
 @import "./layout/nav";
 @import "./layout/services";
 @import "./layout/team";
-@import "./layout/banner";
 @import "./pages/portfolio";
 @import "./themes/logocolor";
+@import "./utils/isHidden";
+
+
+

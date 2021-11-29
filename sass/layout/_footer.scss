@@ -1,14 +1,12 @@
 .address {
   margin-top: 111px;
   position: absolute;
+  & a {
+    padding-top: 9px;
+    font-size: 14px;
+  }
 }
-.address a {
-  padding-top: 9px;
-  font-size: 14px;
-}
-.address a:hover {
-  color: #2196f3;
-}
+
 .maps {
   display: block;
   color: white;
@@ -29,9 +27,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.JoinUs__container-svg {
-  display: inline-flex;
-}
+
 .social-icon-link {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -46,11 +42,12 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   margin: 10px;
+  &:hover {
+    background-color: #2196f3;
+    fill: #eeeeee;
+  }
 }
-.social-icon-link:hover {
-  background-color: #2196f3;
-  fill: #eeeeee;
-}
+
 .newsletter {
   width: 300px;
   margin-top: 66px;
@@ -64,6 +61,7 @@
   color: #ffffff;
 }
 .newsletter__input {
+  color:  rgba(253, 253, 253, 0.979);
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -73,6 +71,7 @@
   padding-left: 20px;
   margin-top: 27px;
   width: 358px;
+  
 }
 .button-position-newsletter {
   margin-left: 70px;

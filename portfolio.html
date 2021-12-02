@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,34 +19,49 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
-        <a class="logo" href="index.html">
-          <span class="logo__web">Web</span>
-          <span class="logo__studio--dark">Studio</span>
-        </a>
+    <div class=" is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" data-modal-close>
+          <svg class="close-btn" width="24px" height="24px">
+            <use href="#icon-X"></use>
+          </svg>  
+        </button>
         <nav class="nav">
-          
-            <a class="nav__link" href="index.html">Agencja</a>
-          
-          <span class="nav__link link-activ"> <a href="portfolio.html">Portfolio</a></span>
+          <span class="nav__link">
+            <a href="index.html">Agencja</a>
+          </span>
+          <a class="nav__link" href="portfolio.html">Portfolio</a>
           <a class="nav__link" href="#">Kontakt</a>
         </nav>
         <div class="contact">
-          <a class="contact__link" href="mailto:infodevstudio.com">
-            <svg class="contact__icon-envelope" width="20px" height="20px">
-              <use href="#icon-envelope"></use>
-            </svg>
+          <a class="contact__link contact__link--modal" href="mailto:infodevstudio.com">
             <p class="contact__txt">info@devstudio.com</p>
           </a>
           <a class="contact__link" href="tel:+48111111111">
-            <svg class="contact__icon-smartphone" width="20px" height="20px">
-              <use href="#icon-smartphone"></use>
-            </svg>
             <p class="contact__txt">+48 111 111 111</p>
           </a>
         </div>
+        <div class="modal-social">
+          <a href="" class="modal-social__link">Instagram</a>
+          <a href="" class="modal-social__link">Twitter</a>
+          <a href="" class="modal-social__link">Facebook</a>
+          <a href="" class="modal-social__link border-none">LinkedIn</a>
+        </div>
       </div>
+      </div>
+    </div>
+    <header class="header"> 
+      <div class="header-containter"> 
+      <a class="logo logo--position-header" href="index.html">
+        <span class="logo__web">Web</span>
+        <span class="logo__studio--dark">Studio</span>
+      </a> 
+      <button class="hamburger" type="button" data-modal-open>
+        <svg class="hamburger__icon" width="20px" height="20px">
+          <use href="#icon-hamburger_menu_move-handle_order_icon"></use>
+        </svg>
+      </button> 
+    </div> 
     </header>
     
       <main class="main">
@@ -85,7 +100,6 @@
                 <ul class="card__ul" >
                   <li><a class="card__title" href="">Technocrack</a></li>
                   <li><a class="card__subtitle" href="">Strona internetowa</a></li>
-                </ul>
               </div> 
             
           </div>
@@ -265,23 +279,25 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <a class="logo" href="index.html">
+        
+        <a class="logo logo--position-footer" href="index.html">
           <span class="logo__web">Web</span>
           <span class="logo__studio--white">Studio</span>
         </a>
         <div class="address">
-          <a href="google.pl/maps" class="maps"
+          <a href="google.pl/maps" class="address__link"
             >m. Warszawa, Aleje Jerozolimskie 21</a
           >
-          <a href="mailto:info@example.com" class="txtadress"
+          <a href="mailto:info@example.com" class="address__link"
             >info@example.com</a
           >
-          <a href="tel+48111111111" class="txtadress">tel 111 111 111</a>
+          <a href="tel+48111111111" class="address__link">tel 111 111 111</a>
         </div>
-
+        <h4 class="JoinUs__title">Dołącz do nas</h4>
         <div class="JoinUs">
-          <h4 class="JoinUs__title">Dołącz do nas</h4>
-          <div class="JoinUs__container-svg">
+          
+          
+           <div class="JoinUs__container-svg">
           <a href="#" class="social-icon-link">
             <svg class="icon-SM" width="20px" height="20px">
               <use href="#icon-instagram"></use>
@@ -306,23 +322,26 @@
             </svg>
           </a>
         </div>
-        </div>
-        <div class="newsletter">
-          <form action="">
-            <label class="newsletter__label" for="#">
-              Zapisz się do newslettera
-            </label>
-            <input class="newsletter__input" type="text" placeholder="E-mail" />
-            
-            </button>
-          </form>
-        </div>
-        <button class="button button-position-newsletter">
-          Zapisz się
-          <svg class="newsletter__icon-send" width="24px" height="24px">
-            <use href="#icon-send"></use>
-          </svg>
-      </div>
+        
+
+        
+     
+      </div> 
+      <div class="newsletter">
+        <form action="">
+          <label class="newsletter__label" for="#">
+            Zapisz się do newslettera
+          </label>
+          <input class="newsletter__input" type="text" placeholder="E-mail" />
+        </form>
+      </div> 
+
+      <button class="button button-position-newsletter "> 
+        Zapisz się
+        <svg class="newsletter__icon-send" width="24px" height="24px">
+          <use href="#icon-send"></use>
+        </svg>  
+        </button>
     </footer>
 
     <svg
@@ -333,6 +352,9 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <defs>
+      <symbol id="icon-hamburger_menu_move-handle_order_icon" viewBox="0 0 32 32">
+        <path d="M0 2.56h32v5.12h-32v-5.12zM0 12.8h32v5.12h-32v-5.12zM0 23.040h32v5.12h-32v-5.12z"></path>
+        </symbol>
       <symbol id="icon-send" viewBox="0 0 32 32">
         <path
           fill="#fff"
@@ -348,6 +370,14 @@
     </defs>
 
     <defs>
+      <symbol id="icon-icon-send" viewBox="0 0 32 32">
+        <path fill="#fff" style="fill: var(--color1, #fff)" d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 32 32">
+        <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+        </symbol>
+        </defs>
+        </svg>
       <symbol id="icon-email-black-18dp-1" viewBox="0 0 32 32">
         <path
           d="M26.667 5.333h-21.333c-1.467 0-2.653 1.2-2.653 2.667l-0.013 16c0 1.467 1.2 2.667 2.667 2.667h21.333c1.467 0 2.667-1.2 2.667-2.667v-16c0-1.467-1.2-2.667-2.667-2.667zM26.133 11l-9.427 5.893c-0.427 0.267-0.987 0.267-1.413 0l-9.427-5.893c-0.333-0.213-0.533-0.573-0.533-0.96 0-0.893 0.973-1.427 1.733-0.96l8.933 5.587 8.933-5.587c0.76-0.467 1.733 0.067 1.733 0.96 0 0.387-0.2 0.747-0.533 0.96z"
@@ -390,6 +420,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <defs>
+      <symbol id="icon-X" viewBox="0 0 32 32">
+        <path d="M31.439 3.166l-3.166-3.166-12.553 12.553-12.553-12.553-3.166 3.166 12.553 12.553-12.553 12.553 3.166 3.166 12.553-12.553 12.553 12.553 3.166-3.166-12.553-12.553 12.553-12.553z"></path>
+        </symbol>
+      <symbol id="icon-hamburger_menu_move-handle_order_icon" viewBox="0 0 32 32">
+<path d="M0 2.56h32v5.12h-32v-5.12zM0 12.8h32v5.12h-32v-5.12zM0 23.040h32v5.12h-32v-5.12z"></path>
+</symbol>
       <symbol id="icon-close-black-18dp-2-1" viewBox="0 0 32 32">
         <path
           d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"

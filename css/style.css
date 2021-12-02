@@ -14,7 +14,8 @@ a {
   width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 /* base */
 
@@ -389,10 +390,12 @@ a {
 /******************* portfolio **************/
 /** filters **/
 .filters {
-  margin-left: 386px;
+ display: flex;
   margin-top: 94px;
   margin-bottom: 2%;
+
 }
+
 .filt {
   text-decoration: none;
   color: black;
@@ -403,6 +406,9 @@ a {
   border-radius: 5px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+ 
+  
+
 }
 .filt:hover {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
@@ -419,6 +425,37 @@ a {
   margin-bottom: 80px;
   margin-top: 50px;
 }
+@media screen and (max-width: 480px){
+  .body{
+    overflow: hidden;
+  }
+  .projects{
+    display: block;
+  }
+  .filters{
+    display: flex;
+    flex-direction: row;
+  }
+ .filt{
+   margin: 0;
+   padding: 0;
+   font-size: 8px;
+ }
+  .container{
+    width: 480px;
+    
+    
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .JoinUs{
+    margin-left: 0;
+  }
+}
+
+
 .project {
   border-bottom: 1px solid #eeeeee;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

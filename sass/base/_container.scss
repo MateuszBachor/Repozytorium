@@ -1,31 +1,39 @@
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
   background-color: #ffffff;
 }
-.header {
-  background-color: white;
-  display: flex;
+header {
   border-bottom: 1px solid #eeeeee;
 }
-
+.header-containter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+}
 
 .footer {
   background-color: #2f303a;
 }
-.wrapper {
-  width: 100%;
-  background-color: #f5f4fa;
-}
-.team__svg-container {
-  display: flex;
-  justify-content: center;
-}
+// .wrapper {
+//   width: 100%;
+//   background-color: #f5f4fa;
+// }
+// .team__svg-container {
+//   display: flex;
+//   justify-content: center;
+// }
 .JoinUs__container-svg {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }

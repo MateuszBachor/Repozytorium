@@ -1,16 +1,16 @@
 .nav {
-  margin-left: 93px;
+  
   padding-top: 32px;
   padding-bottom: 32px;
   align-items: center;
   display: inline-flex;
-  width: 30%;
+  // width: 30%;
 }
 .nav__link {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  padding-right: 1%;
-  padding-left: 15%;
+  // padding-right: 1%;
+  
 }
 .nav__link:hover {
   color: #2196f3;

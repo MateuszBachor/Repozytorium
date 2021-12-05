@@ -1,28 +1,29 @@
 .services {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  width: 100%;
+  
 }
 .services__title {
   text-align: center;
   font-size: 36px;
 }
 .services__card1 {
-  margin: 18px;
+  margin: 7px;
   background-image: url("../images/1.jpg");
-  width: 370px;
+  
   height: 294px;
 }
 .services__card2 {
-  margin: 18px;
+  margin: 7px;
   background-image: url("../images/2.jpg");
-  width: 370px;
+ 
   height: 294px;
 }
 .services__card3 {
-  margin-left: 18px;
-  margin-top: 18px;
+ margin: 7px;
   background-image: url("../images/3.jpg");
-  width: 370px;
+  
   height: 294px;
 }
 .services__subtitile {

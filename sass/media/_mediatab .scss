@@ -1,0 +1,356 @@
+@media screen and (min-width: 480px) {
+    .header-containter{
+        display: none;
+      }
+      .body {
+        overflow: hidden;
+      }
+      img {
+        width: 100%;
+        max-width: 480px;
+        height: 260px;
+      }
+       .button-position-newsletter {
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        padding-left: 35px;
+        padding-right: 35px;
+      } 
+      .projects {
+        flex-direction: row;
+       justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+        
+      }
+      .project {
+        width: 39%;
+       margin:15px;
+        
+      }
+      .card__ul{
+        margin: 0%;
+        height: 100px;
+      }
+    
+      .filt {
+        margin: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 3%;
+        padding-right: 3%;
+       
+        text-align: center;
+      }
+      .filters{
+        width: 100%;
+        justify-content: center;
+      }
+      .container {
+        width: 100%;
+        justify-content: center;
+        min-width: 480px;
+        flex-direction: column;
+      }
+      .logo--position-footer {
+        padding-bottom: 2%;
+        padding-top: 60px;
+      }
+      .logo{
+          margin-left: 2%;
+          justify-content: center;
+      }
+      .JoinUs__title {
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 8%;
+        padding-top: 5%;
+      }
+     
+        .JoinUs {
+      margin: auto;
+      padding-top: 65px;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+      
+      
+      .newsletter {
+        margin: auto;
+        margin-top: 60px;
+        text-align: center;
+        width: 70%;
+        display: flex;
+    flex-direction: column;
+      }
+    
+      .newsletter__input {
+        color: #ffffff;
+        width: 85%;
+      } 
+      .footer {
+        width: 100%;
+      }
+      .card {
+        width: 100%;
+      }
+      .add-card {
+        width: 100%;
+      }
+      header {
+        border-bottom: 1px solid #eeeeee;
+      }
+      .header-help-container{
+          display: inline-flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+      }
+      .link-activ{
+          display: none;
+      }
+    
+      .modal {
+        width: 100%;
+        height: 600px;
+        background: #ffffff;
+        margin: auto;
+        transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+          opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translate3d(0, 0, 0);
+        
+        
+        padding: 0%;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+       
+      }
+      
+      .close-btn{
+        margin-top: 5px;
+        margin-left: 85%;
+        border: none;
+        background-color: #ffffff;
+        width: 20px;
+        height: 15px;
+        position: absolute;
+      }
+      .nav{
+        display: inline-flex;
+        flex-direction: row;
+        line-height: 47px;
+        padding-top: 32px;
+        font-size: 30px;
+        font-weight: 500;
+        align-items: center;
+        justify-content: space-between;
+        width: 43%;
+        margin: auto;
+        
+      }
+      .nav__link:focus{
+        color: #2196f3;
+      }
+      .nav__link{
+      margin: 10px;
+        font-size: 14px;
+      }
+      .contact{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin: auto;
+        font-size: 10px;
+      }
+      
+      .contact__link{
+        color: #2196f3;
+        font-weight: 500;
+        letter-spacing: 0.09em;
+      }
+      .contact__link--modal{
+        color: #757575;
+        font-size: 17px;
+      }
+      .contact__txt{
+          margin: auto;
+          padding: 5px;
+          font-size: 12px;
+          color: #757575;
+      }
+      .contact__icon-envelope{
+          width: 14px;
+          height: 10px;
+          margin-left: -81px;
+          margin-top: 7px;
+      }
+      .contact__icon-smartphone{
+        font-size: 10px;
+        width: 14px;
+        height: 15px;
+        margin-left: -62px;
+    margin-top: 4px;
+      }
+     
+    .nav__span{
+      margin-bottom: 5%;
+    }
+    
+      .modal-social{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      
+        
+      }
+      .modal-social__link{
+        padding: 8px;
+        font-size: 17px;
+        border-right: 0.1px solid #e7e7e7 ;
+        color: #2196f3;
+        font-weight: 500;
+        margin-top: 5px;
+    
+      }
+      .border-none{
+        border: none;
+      }
+      /********************** INDEX **********************/
+      .banner{
+        height: 280px;
+        width: 100%;
+   
+      }
+      .banner__txt{
+        margin: auto;
+        font-size: 24px;
+      }
+      h1{
+        margin: 0;
+        
+      }
+      // .services__card1{
+      //   width: 100%;
+      //   margin: auto;
+      //   background-size:cover;
+      // }
+      // .services__card2{
+      //   width: 100%;
+      //   margin: auto;
+      //   background-size:cover;
+      // }
+      // .services__card3{
+      //   width: 100%;
+      //   margin: auto;
+      //   background-size:cover;
+      // }
+      .services{
+          display: none;
+      }
+     
+      .about-us {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .about-us__card {
+        width: 34%;
+        margin: auto;
+        display: block;
+      
+        padding-top: 40px;
+        text-align: start;
+      }
+      
+      .about-us__icon{
+        width: 100%;
+      }
+      .team{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .team__card{
+        
+       display: flex;
+       flex-direction: column;
+        margin: 10px;
+        width: 45%;
+        margin-top: 30px;
+      }
+      .team__svg-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .team__card-container{
+        max-width: 100%;
+        
+      }
+      .social-icon-link{
+        margin: auto;
+        
+      }
+      .banner__button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 10px;
+        width: 117px;
+        height: 30px;
+      }
+      
+      .client{
+        display: flex;
+        flex-wrap: wrap;
+
+
+      }
+      .client__icon {
+        
+      }
+      .client__icon-link {
+        margin: 10px;
+        
+      }
+      .flex-row-container{
+          display: flex;
+          flex-direction: row;
+      }
+      .icon-SM{
+          margin: auto;
+      }
+      .footer__info{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+      }
+      .flex-row{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+      }
+      .margin--right{
+        margin-right: 45%;
+    }
+      .add__card{
+        
+      }
+    }

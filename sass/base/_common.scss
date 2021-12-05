@@ -4,27 +4,8 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   z-index: 1;
-}
-a {
+} 
+ a {
   text-decoration: none;
   color: black;
-}
-@media screen and (min-width: 600px) {
-  body {
-    background-color: #4caf50;
-  }
-}
-
-/* The color indigo is at 900px or wider. */
-@media screen and (min-width: 900px) {
-  body {
-    background-color: #3f51b5;
-  }
-}
-
-/* The color orange is at 1200px or wider. */
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: #ff5722;
-  }
-}
+} 

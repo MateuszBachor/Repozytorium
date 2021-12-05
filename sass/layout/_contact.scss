@@ -4,12 +4,11 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   display: inline-flex;
-  margin-left: 420px;
-  width: 30%;
+  
 }
 
 .contact__link {
-  width: 200px;
+  
   text-align: center;
   &:hover {
     color: #2196f3;
@@ -17,11 +16,11 @@
     font-weight: 500;
   }
 }
-.contact__txt {
-  color: #757575;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-}
+// // .contact__txt {
+//   color: #757575;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   transition-duration: 250ms;
+// // }
 .contact__icon-envelope {
   fill: #757575;
   position: absolute;

@@ -27,9 +27,9 @@
           </svg>  
         </button>
         <nav class="nav">
-          <span class="nav__link">
-            <a href="index.html">Agencja</a>
-          </span>
+          <span class="nav__span"> 
+            <a class="nav__link" href="index.html">Agencja</a>
+           </span>
           <a class="nav__link" href="portfolio.html">Portfolio</a>
           <a class="nav__link" href="#">Kontakt</a>
         </nav>
@@ -49,9 +49,9 @@
         </div>
       </div>
       </div>
-    </div>
+    </div> 
     <header class="header"> 
-      <div class="header-containter"> 
+     <div class="header-containter"> 
       <a class="logo logo--position-header" href="index.html">
         <span class="logo__web">Web</span>
         <span class="logo__studio--dark">Studio</span>
@@ -61,6 +61,33 @@
           <use href="#icon-hamburger_menu_move-handle_order_icon"></use>
         </svg>
       </button> 
+    </div> 
+    <div class="container none">
+      <div class="header-help-container">
+      <a class="logo" href="index.html">
+        <span class="logo__web">Web</span>
+        <span class="logo__studio--dark">Studio</span>
+      </a>
+      <nav class="nav">
+        <a class="nav__link" href="index.html">Agencja</a>
+        <a class="nav__link" href="portfolio.html">Portfolio</a>
+        <a class="nav__link" href="#">Kontakt</a>
+      </nav>
+      <div class="contact">
+        <a class="contact__link" href="mailto:infodevstudio.com">
+          <svg class="contact__icon-envelope" width="20px" height="20px">
+            <use href="#icon-envelope"></use>
+          </svg>
+          <p class="contact__txt">info@devstudio.com</p>
+        </a>
+        <a class="contact__link" href="tel:+48111111111">
+          <svg class="contact__icon-smartphone" width="20px" height="20px">
+            <use href="#icon-smartphone"></use>
+          </svg>
+          <p class="contact__txt">+48 111 111 111</p>
+        </a>
+      </div>
+      </div>
     </div> 
     </header>
     
@@ -254,7 +281,7 @@
             </div>
           </div>
 
-          <div class="project">
+          <div class="project margin--right">
             <div class="add-card">
             <div class="img">
                 <a href="#"><img src="images/j.jpg" alt="" /></a>
@@ -278,8 +305,8 @@
       </main>
     </div>
     <footer class="footer">
-      <div class="container">
-        
+      <div class="container flex-row">
+        <div class="footer__info">
         <a class="logo logo--position-footer" href="index.html">
           <span class="logo__web">Web</span>
           <span class="logo__studio--white">Studio</span>
@@ -293,40 +320,35 @@
           >
           <a href="tel+48111111111" class="address__link">tel 111 111 111</a>
         </div>
-        <h4 class="JoinUs__title">Dołącz do nas</h4>
+      </div>
+
+        
         <div class="JoinUs">
-          
-          
+          <h4 class="JoinUs__title">Dołącz do nas</h4>
            <div class="JoinUs__container-svg">
           <a href="#" class="social-icon-link">
             <svg class="icon-SM" width="20px" height="20px">
               <use href="#icon-instagram"></use>
             </svg>
           </a>
-
           <a href="#" class="social-icon-link">
             <svg class="icon-SM" width="20px" height="20px">
               <use href="#icon-twitter"></use>
             </svg>
           </a>
-
           <a href="#" class="social-icon-link">
             <svg class="icon-SM" width="20px" height="20px">
               <use href="#icon-facebook"></use>
             </svg>
           </a>
-
           <a href="#" class="social-icon-link">
             <svg class="icon-SM" width="20px" height="20px">
               <use href="#icon-linkedin"></use>
             </svg>
           </a>
         </div>
-        
-
-        
      
-      </div> 
+      </div>  
       <div class="newsletter">
         <form action="">
           <label class="newsletter__label" for="#">
@@ -334,15 +356,17 @@
           </label>
           <input class="newsletter__input" type="text" placeholder="E-mail" />
         </form>
-      </div> 
+        <button class="button button-position-newsletter "> 
+          Zapisz się
+          <svg class="newsletter__icon-send" width="24px" height="24px">
+            <use href="#icon-send"></use>
+          </svg>  
+          </button>
+      </div>  
 
-      <button class="button button-position-newsletter "> 
-        Zapisz się
-        <svg class="newsletter__icon-send" width="24px" height="24px">
-          <use href="#icon-send"></use>
-        </svg>  
-        </button>
-    </footer>
+     
+      
+    </footer> 
 
     <svg
     aria-hidden="true"

@@ -96,9 +96,9 @@
   border-radius: 4px;
   outline: none;
   height: 40px;
-  &:focus {
-    border: 1px solid #2196f3;
-  }
+}
+.tel:focus {
+  border: 1px solid #2196f3;
 }
 
 #tel:focus + .icon-modal-phone {
